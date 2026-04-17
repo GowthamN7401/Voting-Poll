@@ -1,0 +1,14 @@
+{
+  "options": {
+    "ADMK": 1,
+    "DMK": 0,
+    "NTK": 1,
+    "TVK": 1,
+    "Others": 0
+  },
+  "voters": [
+    "90babc76-38ee-4913-bc9b-3c62c77879e1",
+    "a5cdc2dc-0d19-417b-9722-87276fb3f605",
+    "22672537-1ec6-4419-9f73-4e7cc81de3a3"
+  ]
+}
