@@ -103,28 +103,6 @@ const PollBoard = () => {
             </div>
           ))}
           <div className="total-votes">Total Voters: {totalVotes}</div>
-          <div style={{textAlign: 'center', marginTop: '2rem'}}>
-            <button 
-              onClick={() => {
-                localStorage.setItem(PREVENT_DUPLICATE_KEY, crypto.randomUUID());
-                setHasVoted(false);
-              }}
-              style={{
-                padding: '0.8rem 1.5rem', 
-                background: '#e5e7eb', 
-                color: '#374151', 
-                border: 'none', 
-                borderRadius: '8px', 
-                cursor: 'pointer', 
-                fontWeight: 'bold',
-                transition: 'background 0.2s'
-              }}
-              onMouseOver={(e) => e.target.style.background = '#d1d5db'}
-              onMouseOut={(e) => e.target.style.background = '#e5e7eb'}
-            >
-              Vote Again (Test Mode)
-            </button>
-          </div>
         </div>
       )}
     </div>

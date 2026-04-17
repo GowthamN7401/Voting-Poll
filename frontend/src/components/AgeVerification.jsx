@@ -4,7 +4,7 @@ const AgeVerification = ({ onVerified }) => {
   const [error, setError] = useState(false);
 
   const handleYes = () => {
-    localStorage.setItem('ageVerified', 'true');
+    sessionStorage.setItem('isAgeVerifiedSession', 'true');
     onVerified();
   };
 

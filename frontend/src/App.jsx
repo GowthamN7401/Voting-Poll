@@ -6,7 +6,7 @@ function App() {
   const [isVerified, setIsVerified] = useState(false);
 
   useEffect(() => {
-    if (localStorage.getItem('ageVerified') === 'true') {
+    if (sessionStorage.getItem('isAgeVerifiedSession') === 'true') {
       setIsVerified(true);
     }
   }, []);
